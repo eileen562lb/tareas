@@ -87,8 +87,8 @@ while dealer_total < 17 and player_total < 21 and player_response == 'yes':
 if player_total > 21:
     print("You lose!")
 
-if dealer_total > 21:
+elif dealer_total > 21:
     print("You win!")
 
-if player_total > dealer_total and player_total <= 21:
+elif player_total > dealer_total and player_total <= 21:
     print("You win!")
