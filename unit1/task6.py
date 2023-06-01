@@ -1,5 +1,5 @@
 import calendar
-def findDay(day:int, month:int, year:int):print("That day was a " + (["Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday", "Sunday"][calendar.weekday(year, month, day)]))
+def findDay(day:int, month:int, year:int):print("That day was a " + (["Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday", "Sunday"].copy()[calendar.weekday(year, month, day)]))
 
 # Calling Functions - what day were you born?
 # 
